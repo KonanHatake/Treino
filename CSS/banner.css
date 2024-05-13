@@ -2,6 +2,7 @@
 {
     background-color: rgb(210, 210, 255);
     max-width: 1920px;
+    width: 740px
     max-height: 450px;
     display: flex;
     justify-content: space-around;
