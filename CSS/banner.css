@@ -1,0 +1,59 @@
+.banner
+{
+    background-color: rgb(210, 210, 255);
+    max-width: 1920px;
+    max-height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textBanner
+{
+    position: absolute;
+    top: 170px;
+    right: 300px;
+    width: 740px;
+    height: 130px;
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+}
+
+.textBanner h1
+{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textBanner p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagemBanner
+{
+    position: relative;
+    max-width: 1920px;
+    max-height: 370px;
+}
+
+@media(max-width: 740px)
+{
+    .imagemBanner img
+    {
+        position: relative;
+        right: 50px;
+        overflow: hidden;
+    }
+
+    .textBanner h1
+    {
+        text-align: center;
+        color: aliceblue;
+        position: absolute;
+        top: 130px;
+        width: 740px;
+        margin: auto;
+        transform: translate(-50%, -50%);
+    }
+}

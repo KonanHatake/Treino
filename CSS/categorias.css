@@ -1,0 +1,40 @@
+.categoria
+{
+    background-color: rgb(21, 21, 90);
+    display: flex;
+    padding: 1rem;
+}
+
+.cat1
+{
+    padding: 1rem;
+    margin: auto auto;
+    background-color: rgb(220, 220, 255);
+    width: 200px;
+    height: 350px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.cat1 img
+{
+    margin: auto;
+    position: relative;
+    bottom: 26px;
+    right: 20px;
+}
+
+.cat1 h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cat1 a
+{
+    color: black;
+    text-decoration: none;
+}
